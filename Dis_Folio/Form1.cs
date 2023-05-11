@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace Dis_Folio
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialForm
     {
         public Form1()
         {
@@ -35,28 +37,22 @@ namespace Dis_Folio
 
         private void Bt_Salir_Click(object sender, EventArgs e)
         {
-            Form3 obj = new Form3();
+            form_Registro obj = new form_Registro();
             obj.ShowDialog();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+    
+
+        private void Bt_ayuda_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Clave RFC son las unicas letras de su rfc");
+        MessageBox.Show("Clave RFC son las unicas letras de su rfc");
         }
     }
 }

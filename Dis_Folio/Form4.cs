@@ -12,7 +12,7 @@ namespace Dis_Folio
 {
     public partial class Form4 : Form
     {
-        public Form4(Form3.Datos info)
+        public Form4(form_Registro.Datos info)
         {
             InitializeComponent();
             /// Toma los datos del nuevo socio  los pone en el registro del forms 4 
