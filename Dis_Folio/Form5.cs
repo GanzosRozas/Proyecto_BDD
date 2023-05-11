@@ -7,16 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MaterialSkin;
+using MaterialSkin.Controls;
 namespace Dis_Folio
 {
-    public partial class Form5 : Form
+    public partial class Form5 : MaterialForm
     {
-        public Form5(Form4.DatosSocio infos)
+        public Form5(Form_NuevoSocio.DatosSocio infos)
         {
             InitializeComponent();
             txtSocio.Text = infos.Nombres;
-            txtSocio.Text = infos.Apellido;
+            txtSocio.Text = infos.Apellido_PA;
+            txtSocio.Text=infos.Apellido_MA;
             TxtRfC.Text = infos.RfC;
             ////
             txtSocio.Text = infos.listaSocio1[0];
@@ -24,7 +26,7 @@ namespace Dis_Folio
             TxtRfC.Text = infos.listaSocio1[2];
             ///Aqui agarra del form 1 
         }
-        public Form5(Form1.DatosSocio1 infoSocio)
+        public Form5(Form_Inicio_Secion.DatosSocio1 infoSocio)
         {
             InitializeComponent();
             txtSocio.Text = infoSocio.socio;
@@ -65,5 +67,6 @@ namespace Dis_Folio
         {
             Application.Exit();
         }
+
     }
 }

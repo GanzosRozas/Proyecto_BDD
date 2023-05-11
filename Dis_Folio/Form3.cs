@@ -7,15 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using MaterialSkin;
 using MaterialSkin.Controls;
 
 namespace Dis_Folio
 {
-    public partial class form_Registro : MaterialForm
+    public partial class Form_Registro : MaterialForm
     {
-        public form_Registro()
+        public Form_Registro()
         {
             InitializeComponent();
         }
@@ -45,7 +44,7 @@ namespace Dis_Folio
             info.Fecha_Ingreso = txtingreso.Text;
             MessageBox.Show("Sus datos han quedado capturados, Gracias por ser nuevo miembro");
             info.lista = new List<string>(new string[] { txtnombre.Text, txtApellido_P.Text,txtApellido_M.Text,txtrfc.Text,txtcorreo.Text,txtingreso.Text,txttelefono.Text,txtciudad.Text}); ;
-            Form4 obj = new Form4(info);
+            Form_NuevoSocio obj = new Form_NuevoSocio(info);
                 obj.ShowDialog();
         }
 
@@ -71,7 +70,7 @@ namespace Dis_Folio
 
         private void bt_regregar_Click(object sender, EventArgs e)
         {
-            form_Registro sd = new form_Registro();
+            Form_Registro sd = new Form_Registro();
             sd.Close();
             
         }

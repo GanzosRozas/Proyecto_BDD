@@ -1,7 +1,7 @@
 ﻿
 namespace Dis_Folio
 {
-    partial class Form1
+    partial class Form_Inicio_Secion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -33,9 +33,9 @@ namespace Dis_Folio
             this.txtRFC = new MaterialSkin.Controls.MaterialTextBox();
             this.lblSocio = new MaterialSkin.Controls.MaterialLabel();
             this.lblRFC = new MaterialSkin.Controls.MaterialLabel();
-            this.Bt_Aceptar2 = new MaterialSkin.Controls.MaterialButton();
-            this.Rfc_olvidada2 = new MaterialSkin.Controls.MaterialButton();
-            this.Bt_Nsocio2 = new MaterialSkin.Controls.MaterialButton();
+            this.Bt_Aceptar = new MaterialSkin.Controls.MaterialButton();
+            this.Rfc_olvidada = new MaterialSkin.Controls.MaterialButton();
+            this.Bt_Nsocio = new MaterialSkin.Controls.MaterialButton();
             this.SuspendLayout();
             // 
             // txtSocio
@@ -58,6 +58,7 @@ namespace Dis_Folio
             // txtRFC
             // 
             this.txtRFC.AnimateReadOnly = false;
+            this.txtRFC.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRFC.Depth = 0;
             this.txtRFC.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtRFC.LeadingIcon = null;
@@ -95,85 +96,84 @@ namespace Dis_Folio
             this.lblRFC.TabIndex = 13;
             this.lblRFC.Text = "RFC";
             // 
-            // Bt_Aceptar2
+            // Bt_Aceptar
             // 
-            this.Bt_Aceptar2.AutoSize = false;
-            this.Bt_Aceptar2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.Bt_Aceptar2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.Bt_Aceptar2.Depth = 0;
-            this.Bt_Aceptar2.HighEmphasis = true;
-            this.Bt_Aceptar2.Icon = null;
-            this.Bt_Aceptar2.Location = new System.Drawing.Point(16, 310);
-            this.Bt_Aceptar2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.Bt_Aceptar2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.Bt_Aceptar2.Name = "Bt_Aceptar2";
-            this.Bt_Aceptar2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.Bt_Aceptar2.Size = new System.Drawing.Size(167, 36);
-            this.Bt_Aceptar2.TabIndex = 14;
-            this.Bt_Aceptar2.Text = "Aceptar";
-            this.Bt_Aceptar2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.Bt_Aceptar2.UseAccentColor = false;
-            this.Bt_Aceptar2.UseVisualStyleBackColor = true;
-            this.Bt_Aceptar2.Click += new System.EventHandler(this.Bt_Aceptar_Click);
+            this.Bt_Aceptar.AutoSize = false;
+            this.Bt_Aceptar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Bt_Aceptar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.Bt_Aceptar.Depth = 0;
+            this.Bt_Aceptar.HighEmphasis = true;
+            this.Bt_Aceptar.Icon = null;
+            this.Bt_Aceptar.Location = new System.Drawing.Point(16, 310);
+            this.Bt_Aceptar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Bt_Aceptar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Bt_Aceptar.Name = "Bt_Aceptar";
+            this.Bt_Aceptar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Bt_Aceptar.Size = new System.Drawing.Size(167, 36);
+            this.Bt_Aceptar.TabIndex = 14;
+            this.Bt_Aceptar.Text = "Aceptar";
+            this.Bt_Aceptar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.Bt_Aceptar.UseAccentColor = false;
+            this.Bt_Aceptar.UseVisualStyleBackColor = true;
+            this.Bt_Aceptar.Click += new System.EventHandler(this.Bt_Aceptar_Click);
             // 
-            // Rfc_olvidada2
+            // Rfc_olvidada
             // 
-            this.Rfc_olvidada2.AutoSize = false;
-            this.Rfc_olvidada2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.Rfc_olvidada2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.Rfc_olvidada2.Depth = 0;
-            this.Rfc_olvidada2.HighEmphasis = true;
-            this.Rfc_olvidada2.Icon = null;
-            this.Rfc_olvidada2.Location = new System.Drawing.Point(153, 262);
-            this.Rfc_olvidada2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.Rfc_olvidada2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.Rfc_olvidada2.Name = "Rfc_olvidada2";
-            this.Rfc_olvidada2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.Rfc_olvidada2.Size = new System.Drawing.Size(163, 26);
-            this.Rfc_olvidada2.TabIndex = 15;
-            this.Rfc_olvidada2.Text = "Ayuda Clave RFC";
-            this.Rfc_olvidada2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.Rfc_olvidada2.UseAccentColor = false;
-            this.Rfc_olvidada2.UseVisualStyleBackColor = true;
-            this.Rfc_olvidada2.Click += new System.EventHandler(this.Bt_ayuda_Click);
+            this.Rfc_olvidada.AutoSize = false;
+            this.Rfc_olvidada.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Rfc_olvidada.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.Rfc_olvidada.Depth = 0;
+            this.Rfc_olvidada.HighEmphasis = true;
+            this.Rfc_olvidada.Icon = null;
+            this.Rfc_olvidada.Location = new System.Drawing.Point(153, 262);
+            this.Rfc_olvidada.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Rfc_olvidada.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Rfc_olvidada.Name = "Rfc_olvidada";
+            this.Rfc_olvidada.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Rfc_olvidada.Size = new System.Drawing.Size(163, 26);
+            this.Rfc_olvidada.TabIndex = 15;
+            this.Rfc_olvidada.Text = "Ayuda Clave RFC";
+            this.Rfc_olvidada.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.Rfc_olvidada.UseAccentColor = false;
+            this.Rfc_olvidada.UseVisualStyleBackColor = true;
+            this.Rfc_olvidada.Click += new System.EventHandler(this.Bt_ayuda_Click);
             // 
-            // Bt_Nsocio2
+            // Bt_Nsocio
             // 
-            this.Bt_Nsocio2.AutoSize = false;
-            this.Bt_Nsocio2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.Bt_Nsocio2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.Bt_Nsocio2.Depth = 0;
-            this.Bt_Nsocio2.HighEmphasis = true;
-            this.Bt_Nsocio2.Icon = null;
-            this.Bt_Nsocio2.Location = new System.Drawing.Point(279, 310);
-            this.Bt_Nsocio2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.Bt_Nsocio2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.Bt_Nsocio2.Name = "Bt_Nsocio2";
-            this.Bt_Nsocio2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.Bt_Nsocio2.Size = new System.Drawing.Size(157, 36);
-            this.Bt_Nsocio2.TabIndex = 16;
-            this.Bt_Nsocio2.Text = "Nuevo Socio";
-            this.Bt_Nsocio2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.Bt_Nsocio2.UseAccentColor = false;
-            this.Bt_Nsocio2.UseVisualStyleBackColor = true;
-            this.Bt_Nsocio2.Click += new System.EventHandler(this.Bt_Salir_Click);
+            this.Bt_Nsocio.AutoSize = false;
+            this.Bt_Nsocio.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Bt_Nsocio.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.Bt_Nsocio.Depth = 0;
+            this.Bt_Nsocio.HighEmphasis = true;
+            this.Bt_Nsocio.Icon = null;
+            this.Bt_Nsocio.Location = new System.Drawing.Point(279, 310);
+            this.Bt_Nsocio.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Bt_Nsocio.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Bt_Nsocio.Name = "Bt_Nsocio";
+            this.Bt_Nsocio.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Bt_Nsocio.Size = new System.Drawing.Size(157, 36);
+            this.Bt_Nsocio.TabIndex = 16;
+            this.Bt_Nsocio.Text = "Nuevo Socio";
+            this.Bt_Nsocio.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.Bt_Nsocio.UseAccentColor = false;
+            this.Bt_Nsocio.UseVisualStyleBackColor = true;
+            this.Bt_Nsocio.Click += new System.EventHandler(this.Bt_RegistroNuevo_Click);
             // 
-            // Form1
+            // Form_Inicio_Secion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.ClientSize = new System.Drawing.Size(508, 395);
-            this.Controls.Add(this.Bt_Nsocio2);
-            this.Controls.Add(this.Rfc_olvidada2);
-            this.Controls.Add(this.Bt_Aceptar2);
+            this.Controls.Add(this.Bt_Nsocio);
+            this.Controls.Add(this.Rfc_olvidada);
+            this.Controls.Add(this.Bt_Aceptar);
             this.Controls.Add(this.lblRFC);
             this.Controls.Add(this.lblSocio);
             this.Controls.Add(this.txtRFC);
             this.Controls.Add(this.txtSocio);
-            this.Name = "Form1";
+            this.Name = "Form_Inicio_Secion";
             this.Text = "Inicio de sesion";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,9 +184,9 @@ namespace Dis_Folio
         private MaterialSkin.Controls.MaterialTextBox txtRFC;
         private MaterialSkin.Controls.MaterialLabel lblSocio;
         private MaterialSkin.Controls.MaterialLabel lblRFC;
-        private MaterialSkin.Controls.MaterialButton Bt_Aceptar2;
-        private MaterialSkin.Controls.MaterialButton Rfc_olvidada2;
-        private MaterialSkin.Controls.MaterialButton Bt_Nsocio2;
+        private MaterialSkin.Controls.MaterialButton Bt_Aceptar;
+        private MaterialSkin.Controls.MaterialButton Rfc_olvidada;
+        private MaterialSkin.Controls.MaterialButton Bt_Nsocio;
     }
 }
 

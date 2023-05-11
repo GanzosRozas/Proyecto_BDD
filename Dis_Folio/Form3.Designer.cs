@@ -1,7 +1,7 @@
 ﻿
 namespace Dis_Folio
 {
-    partial class form_Registro
+    partial class Form_Registro
     {
         /// <summary>
         /// Required designer variable.
@@ -345,7 +345,7 @@ namespace Dis_Folio
             this.materialLabel8.TabIndex = 42;
             this.materialLabel8.Text = "Fecha de Ingreso:";
             // 
-            // form_Registro
+            // Form_Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -369,8 +369,8 @@ namespace Dis_Folio
             this.Controls.Add(this.txtApellido_M);
             this.Controls.Add(this.txtApellido_P);
             this.Controls.Add(this.txtnombre);
-            this.Name = "form_Registro";
-            this.Text = "Nuevo Socio";
+            this.Name = "Form_Registro";
+            this.Text = "Registrate";
             this.ResumeLayout(false);
             this.PerformLayout();
 

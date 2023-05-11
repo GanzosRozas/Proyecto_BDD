@@ -12,9 +12,9 @@ using MaterialSkin.Controls;
 
 namespace Dis_Folio
 {
-    public partial class Form1 : MaterialForm
+    public partial class Form_Inicio_Secion : MaterialForm
     {
-        public Form1()
+        public Form_Inicio_Secion()
         {
             InitializeComponent();
         }
@@ -35,24 +35,16 @@ namespace Dis_Folio
             obj.ShowDialog();
         }
 
-        private void Bt_Salir_Click(object sender, EventArgs e)
-        {
-            form_Registro obj = new form_Registro();
-            obj.ShowDialog();
-        }
-
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-    
-
         private void Bt_ayuda_Click(object sender, EventArgs e)
         {
         MessageBox.Show("Clave RFC son las unicas letras de su rfc");
+        }
+
+
+        private void Bt_RegistroNuevo_Click(object sender, EventArgs e)
+        {
+            Form_Registro obj = new Form_Registro();
+            obj.ShowDialog();
         }
     }
 }
