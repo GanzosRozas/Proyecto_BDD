@@ -11,22 +11,20 @@ using MaterialSkin;
 using MaterialSkin.Controls;
 namespace Dis_Folio
 {
-    public partial class Form5 : MaterialForm
+    public partial class Form_Recibo : MaterialForm
     {
-        public Form5(Form_NuevoSocio.DatosSocio infos)
+        public Form_Recibo(Form_NuevoSocio.DatosSocio infos)
         {
             InitializeComponent();
-            txtSocio.Text = infos.Nombres;
-            txtSocio.Text = infos.Apellido_PA;
-            txtSocio.Text=infos.Apellido_MA;
-            TxtRfC.Text = infos.RfC;
+            //txtSocio.Text=(infos.Nombres+" "+infos.Apellido_PA+" "+infos.Apellido_MA);
+            //TxtRfC.Text = infos.RfC;
             ////
-            txtSocio.Text = infos.listaSocio1[0];
-            txtSocio.Text = infos.listaSocio1[1];
-            TxtRfC.Text = infos.listaSocio1[2];
+            txtSocio.Text = (infos.listaSocio1[0] + "" + infos.listaSocio1[1] + "" + infos.listaSocio1[2]);
+            //txtSocio.Text = infos.listaSocio1[1];
+            TxtRfC.Text = infos.listaSocio1[3];
             ///Aqui agarra del form 1 
         }
-        public Form5(Form_Inicio_Secion.DatosSocio1 infoSocio)
+        public Form_Recibo(Form_Inicio_Secion.DatosSocio1 infoSocio)
         {
             InitializeComponent();
             txtSocio.Text = infoSocio.socio;
@@ -45,10 +43,7 @@ namespace Dis_Folio
             public List<string> lista;
         }
 
-        private void Form5_Load(object sender, EventArgs e)
-        {
-
-        }
+   
 
         private void bt_Recibo_Click(object sender, EventArgs e)
         {
@@ -67,6 +62,5 @@ namespace Dis_Folio
         {
             Application.Exit();
         }
-
     }
 }

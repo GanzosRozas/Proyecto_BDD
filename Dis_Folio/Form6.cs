@@ -8,12 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MaterialSkin;
+using MaterialSkin.Controls;
 namespace Dis_Folio
 {
-    public partial class Form6 : Form
+    public partial class Form6 : MaterialForm
     {
-        public Form6(Form5.Folio informacion)
+        public Form6(Form_Recibo.Folio informacion)
         {
             InitializeComponent();
             txtSoci.Text = informacion.Socios;

@@ -23,7 +23,7 @@ namespace Dis_Folio
             public string Nombre;
             public string Apellido_P;
             public string Apellido_M;
-            public int Telefono;
+            public string Telefono;
             public string Correo_electronico;
             public string Ciudad;
             public string rfc;
@@ -39,7 +39,7 @@ namespace Dis_Folio
             info.Apellido_M = txtApellido_M.Text;
             info.Ciudad = txtciudad.Text;
             info.Correo_electronico = txtcorreo.Text;
-            info.Telefono = Convert.ToInt32(txttelefono.Text);
+            info.Telefono = txttelefono.Text;
             info.rfc = txtrfc.Text;
             info.Fecha_Ingreso = txtingreso.Text;
             MessageBox.Show("Sus datos han quedado capturados, Gracias por ser nuevo miembro");

@@ -29,12 +29,14 @@ namespace Dis_Folio
             /// Aqui empieza lista
             txtnombre.Text = info.lista[0];
             txtApellido_P.Text = info.lista[1];
-            txtApellido_P.Text = info.lista[2];
-            txtTel.Text = info.lista[3];
-            txtRfc.Text = info.lista[4];
-            txtCiudad.Text = info.lista[5];
-            txtCorreoEle.Text = info.lista[6];
-            txtFechaIngre.Text = info.lista[7];
+            txtApellido_M.Text = info.lista[2];
+            txtRfc.Text = info.lista[3];
+            txtCorreoEle.Text = info.lista[4];
+            txtFechaIngre.Text = info.lista[5];
+            txtTel.Text = info.lista[6];
+            txtCiudad.Text = info.lista[7];
+           
+           
         }
         public struct DatosSocio
         {
@@ -60,7 +62,7 @@ namespace Dis_Folio
             infos.Apellido_MA = txtApellido_M.Text;
             infos.RfC = txtRfc.Text;
             infos.listaSocio1 = new List<string>(new string[] { txtnombre.Text, txtApellido_P.Text, txtApellido_M.Text, txtRfc.Text });
-            Form5 obj = new Form5(infos);
+            Form_Recibo obj = new Form_Recibo(infos);
             obj.ShowDialog();
         }
 

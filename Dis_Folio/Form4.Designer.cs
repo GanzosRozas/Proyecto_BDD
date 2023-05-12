@@ -46,7 +46,7 @@ namespace Dis_Folio
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.txtFechaIngre = new MaterialSkin.Controls.MaterialTextBox();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.cmd_Salir = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
             this.SuspendLayout();
             // 
@@ -123,7 +123,7 @@ namespace Dis_Folio
             this.txtRfc.AnimateReadOnly = false;
             this.txtRfc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRfc.Depth = 0;
-            this.txtRfc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtRfc.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtRfc.LeadingIcon = null;
             this.txtRfc.Location = new System.Drawing.Point(496, 90);
             this.txtRfc.MaxLength = 50;
@@ -278,7 +278,7 @@ namespace Dis_Folio
             this.txtFechaIngre.Multiline = false;
             this.txtFechaIngre.Name = "txtFechaIngre";
             this.txtFechaIngre.Size = new System.Drawing.Size(190, 50);
-            this.txtFechaIngre.TabIndex = 32;
+            this.txtFechaIngre.TabIndex = 24;
             this.txtFechaIngre.Text = "";
             this.txtFechaIngre.TrailingIcon = null;
             // 
@@ -295,7 +295,7 @@ namespace Dis_Folio
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
             this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(172, 36);
+            this.materialButton1.Size = new System.Drawing.Size(160, 40);
             this.materialButton1.TabIndex = 33;
             this.materialButton1.Text = "Aportar";
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -303,26 +303,26 @@ namespace Dis_Folio
             this.materialButton1.UseVisualStyleBackColor = true;
             this.materialButton1.Click += new System.EventHandler(this.btAcept_Click);
             // 
-            // materialButton2
+            // cmd_Salir
             // 
-            this.materialButton2.AutoSize = false;
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(339, 381);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton2.Size = new System.Drawing.Size(168, 36);
-            this.materialButton2.TabIndex = 34;
-            this.materialButton2.Text = "Salir";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton2.UseAccentColor = false;
-            this.materialButton2.UseVisualStyleBackColor = true;
-            this.materialButton2.Click += new System.EventHandler(this.BtSalir_Click);
+            this.cmd_Salir.AutoSize = false;
+            this.cmd_Salir.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.cmd_Salir.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.cmd_Salir.Depth = 0;
+            this.cmd_Salir.HighEmphasis = true;
+            this.cmd_Salir.Icon = null;
+            this.cmd_Salir.Location = new System.Drawing.Point(339, 381);
+            this.cmd_Salir.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.cmd_Salir.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cmd_Salir.Name = "cmd_Salir";
+            this.cmd_Salir.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.cmd_Salir.Size = new System.Drawing.Size(160, 40);
+            this.cmd_Salir.TabIndex = 34;
+            this.cmd_Salir.Text = "Salir";
+            this.cmd_Salir.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.cmd_Salir.UseAccentColor = false;
+            this.cmd_Salir.UseVisualStyleBackColor = true;
+            this.cmd_Salir.Click += new System.EventHandler(this.BtSalir_Click);
             // 
             // materialLabel9
             // 
@@ -342,7 +342,7 @@ namespace Dis_Folio
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 437);
             this.Controls.Add(this.materialLabel9);
-            this.Controls.Add(this.materialButton2);
+            this.Controls.Add(this.cmd_Salir);
             this.Controls.Add(this.materialButton1);
             this.Controls.Add(this.txtFechaIngre);
             this.Controls.Add(this.materialLabel8);
@@ -385,7 +385,7 @@ namespace Dis_Folio
         private MaterialSkin.Controls.MaterialLabel materialLabel8;
         private MaterialSkin.Controls.MaterialTextBox txtFechaIngre;
         private MaterialSkin.Controls.MaterialButton materialButton1;
-        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialButton cmd_Salir;
         private MaterialSkin.Controls.MaterialLabel materialLabel9;
     }
 }

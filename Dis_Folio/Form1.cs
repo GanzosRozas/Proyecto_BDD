@@ -30,8 +30,8 @@ namespace Dis_Folio
             infoSocio.socio = txtSocio.Text;
             infoSocio.RFC = txtRFC.Text;
             MessageBox.Show("Datos confirmados, Bienvenido" );
-            infoSocio.listaSocio = new List<string>(new string[] { txtRFC.Text, txtSocio.Text });
-            Form5 obj = new Form5(infoSocio);
+            infoSocio.listaSocio = new List<string>(new string[] {  txtSocio.Text,txtRFC.Text });
+            Form_Recibo obj = new Form_Recibo(infoSocio);
             obj.ShowDialog();
         }
 
