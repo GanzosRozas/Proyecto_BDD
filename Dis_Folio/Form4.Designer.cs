@@ -290,7 +290,7 @@ namespace Dis_Folio
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(159, 381);
+            this.materialButton1.Location = new System.Drawing.Point(355, 381);
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
@@ -311,7 +311,7 @@ namespace Dis_Folio
             this.cmd_Salir.Depth = 0;
             this.cmd_Salir.HighEmphasis = true;
             this.cmd_Salir.Icon = null;
-            this.cmd_Salir.Location = new System.Drawing.Point(339, 381);
+            this.cmd_Salir.Location = new System.Drawing.Point(187, 381);
             this.cmd_Salir.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cmd_Salir.MouseState = MaterialSkin.MouseState.HOVER;
             this.cmd_Salir.Name = "cmd_Salir";

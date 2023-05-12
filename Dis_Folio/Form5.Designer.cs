@@ -97,7 +97,7 @@ namespace Dis_Folio
             this.txtFecha.AnimateReadOnly = false;
             this.txtFecha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtFecha.Depth = 0;
-            this.txtFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtFecha.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtFecha.LeadingIcon = null;
             this.txtFecha.Location = new System.Drawing.Point(480, 135);
             this.txtFecha.MaxLength = 50;
@@ -165,13 +165,13 @@ namespace Dis_Folio
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(132, 250);
+            this.materialButton1.Location = new System.Drawing.Point(381, 254);
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
             this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
             this.materialButton1.Size = new System.Drawing.Size(160, 40);
-            this.materialButton1.TabIndex = 18;
+            this.materialButton1.TabIndex = 19;
             this.materialButton1.Text = "Recibo";
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton1.UseAccentColor = false;
@@ -186,13 +186,13 @@ namespace Dis_Folio
             this.materialButton2.Depth = 0;
             this.materialButton2.HighEmphasis = true;
             this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(365, 250);
+            this.materialButton2.Location = new System.Drawing.Point(198, 254);
             this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton2.Name = "materialButton2";
             this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
             this.materialButton2.Size = new System.Drawing.Size(160, 40);
-            this.materialButton2.TabIndex = 19;
+            this.materialButton2.TabIndex = 18;
             this.materialButton2.Text = "Regresar";
             this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton2.UseAccentColor = false;
@@ -215,7 +215,7 @@ namespace Dis_Folio
             this.Controls.Add(this.TxtRfC);
             this.Controls.Add(this.txtSocio);
             this.Name = "Form_Recibo";
-            this.Text = "Form5";
+            this.Text = "Recibos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

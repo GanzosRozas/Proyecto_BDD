@@ -89,7 +89,7 @@ namespace Dis_Folio
             this.lblRFC.AutoSize = true;
             this.lblRFC.Depth = 0;
             this.lblRFC.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblRFC.Location = new System.Drawing.Point(58, 200);
+            this.lblRFC.Location = new System.Drawing.Point(47, 199);
             this.lblRFC.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblRFC.Name = "lblRFC";
             this.lblRFC.Size = new System.Drawing.Size(30, 19);
@@ -104,7 +104,7 @@ namespace Dis_Folio
             this.Bt_Aceptar.Depth = 0;
             this.Bt_Aceptar.HighEmphasis = true;
             this.Bt_Aceptar.Icon = null;
-            this.Bt_Aceptar.Location = new System.Drawing.Point(16, 310);
+            this.Bt_Aceptar.Location = new System.Drawing.Point(240, 316);
             this.Bt_Aceptar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Bt_Aceptar.MouseState = MaterialSkin.MouseState.HOVER;
             this.Bt_Aceptar.Name = "Bt_Aceptar";
@@ -146,7 +146,7 @@ namespace Dis_Folio
             this.Bt_Nsocio.Depth = 0;
             this.Bt_Nsocio.HighEmphasis = true;
             this.Bt_Nsocio.Icon = null;
-            this.Bt_Nsocio.Location = new System.Drawing.Point(279, 310);
+            this.Bt_Nsocio.Location = new System.Drawing.Point(75, 316);
             this.Bt_Nsocio.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Bt_Nsocio.MouseState = MaterialSkin.MouseState.HOVER;
             this.Bt_Nsocio.Name = "Bt_Nsocio";

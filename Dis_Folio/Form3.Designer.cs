@@ -55,7 +55,7 @@ namespace Dis_Folio
             this.txtnombre.AnimateReadOnly = false;
             this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnombre.Depth = 0;
-            this.txtnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtnombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtnombre.LeadingIcon = null;
             this.txtnombre.Location = new System.Drawing.Point(166, 79);
             this.txtnombre.MaxLength = 50;
@@ -140,7 +140,7 @@ namespace Dis_Folio
             this.txtcorreo.AnimateReadOnly = false;
             this.txtcorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtcorreo.Depth = 0;
-            this.txtcorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtcorreo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtcorreo.LeadingIcon = null;
             this.txtcorreo.Location = new System.Drawing.Point(515, 136);
             this.txtcorreo.MaxLength = 50;
@@ -261,13 +261,13 @@ namespace Dis_Folio
             this.bt_Guardar.Depth = 0;
             this.bt_Guardar.HighEmphasis = true;
             this.bt_Guardar.Icon = null;
-            this.bt_Guardar.Location = new System.Drawing.Point(129, 343);
+            this.bt_Guardar.Location = new System.Drawing.Point(476, 343);
             this.bt_Guardar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.bt_Guardar.MouseState = MaterialSkin.MouseState.HOVER;
             this.bt_Guardar.Name = "bt_Guardar";
             this.bt_Guardar.NoAccentTextColor = System.Drawing.Color.Empty;
             this.bt_Guardar.Size = new System.Drawing.Size(160, 40);
-            this.bt_Guardar.TabIndex = 38;
+            this.bt_Guardar.TabIndex = 34;
             this.bt_Guardar.Text = "Guardar";
             this.bt_Guardar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.bt_Guardar.UseAccentColor = false;
@@ -288,7 +288,7 @@ namespace Dis_Folio
             this.bt_Limpiar.Name = "bt_Limpiar";
             this.bt_Limpiar.NoAccentTextColor = System.Drawing.Color.Empty;
             this.bt_Limpiar.Size = new System.Drawing.Size(160, 40);
-            this.bt_Limpiar.TabIndex = 39;
+            this.bt_Limpiar.TabIndex = 33;
             this.bt_Limpiar.Text = "Limpiar Todo";
             this.bt_Limpiar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.bt_Limpiar.UseAccentColor = false;
@@ -303,13 +303,13 @@ namespace Dis_Folio
             this.bt_regregar.Depth = 0;
             this.bt_regregar.HighEmphasis = true;
             this.bt_regregar.Icon = null;
-            this.bt_regregar.Location = new System.Drawing.Point(495, 343);
+            this.bt_regregar.Location = new System.Drawing.Point(140, 343);
             this.bt_regregar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.bt_regregar.MouseState = MaterialSkin.MouseState.HOVER;
             this.bt_regregar.Name = "bt_regregar";
             this.bt_regregar.NoAccentTextColor = System.Drawing.Color.Empty;
             this.bt_regregar.Size = new System.Drawing.Size(160, 40);
-            this.bt_regregar.TabIndex = 40;
+            this.bt_regregar.TabIndex = 32;
             this.bt_regregar.Text = "Regresar";
             this.bt_regregar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.bt_regregar.UseAccentColor = false;
@@ -321,7 +321,7 @@ namespace Dis_Folio
             this.txtingreso.AnimateReadOnly = false;
             this.txtingreso.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtingreso.Depth = 0;
-            this.txtingreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtingreso.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtingreso.LeadingIcon = null;
             this.txtingreso.Location = new System.Drawing.Point(515, 248);
             this.txtingreso.MaxLength = 50;
@@ -329,7 +329,7 @@ namespace Dis_Folio
             this.txtingreso.Multiline = false;
             this.txtingreso.Name = "txtingreso";
             this.txtingreso.Size = new System.Drawing.Size(190, 50);
-            this.txtingreso.TabIndex = 41;
+            this.txtingreso.TabIndex = 31;
             this.txtingreso.Text = "";
             this.txtingreso.TrailingIcon = null;
             // 

@@ -53,7 +53,7 @@ namespace Dis_Folio
             this.Tiempo.Location = new System.Drawing.Point(358, 97);
             this.Tiempo.Name = "Tiempo";
             this.Tiempo.Size = new System.Drawing.Size(199, 20);
-            this.Tiempo.TabIndex = 10;
+            this.Tiempo.TabIndex = 15;
             // 
             // printPreviewDialog1
             // 
@@ -173,13 +173,13 @@ namespace Dis_Folio
             this.cmd_Imprimir.Depth = 0;
             this.cmd_Imprimir.HighEmphasis = true;
             this.cmd_Imprimir.Icon = null;
-            this.cmd_Imprimir.Location = new System.Drawing.Point(258, 181);
+            this.cmd_Imprimir.Location = new System.Drawing.Point(413, 179);
             this.cmd_Imprimir.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cmd_Imprimir.MouseState = MaterialSkin.MouseState.HOVER;
             this.cmd_Imprimir.Name = "cmd_Imprimir";
             this.cmd_Imprimir.NoAccentTextColor = System.Drawing.Color.Empty;
             this.cmd_Imprimir.Size = new System.Drawing.Size(160, 40);
-            this.cmd_Imprimir.TabIndex = 19;
+            this.cmd_Imprimir.TabIndex = 20;
             this.cmd_Imprimir.Text = "Imprimir";
             this.cmd_Imprimir.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.cmd_Imprimir.UseAccentColor = false;
@@ -194,13 +194,13 @@ namespace Dis_Folio
             this.cmd_Salir.Depth = 0;
             this.cmd_Salir.HighEmphasis = true;
             this.cmd_Salir.Icon = null;
-            this.cmd_Salir.Location = new System.Drawing.Point(426, 181);
+            this.cmd_Salir.Location = new System.Drawing.Point(245, 179);
             this.cmd_Salir.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cmd_Salir.MouseState = MaterialSkin.MouseState.HOVER;
             this.cmd_Salir.Name = "cmd_Salir";
             this.cmd_Salir.NoAccentTextColor = System.Drawing.Color.Empty;
             this.cmd_Salir.Size = new System.Drawing.Size(160, 40);
-            this.cmd_Salir.TabIndex = 20;
+            this.cmd_Salir.TabIndex = 19;
             this.cmd_Salir.Text = "Salir";
             this.cmd_Salir.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.cmd_Salir.UseAccentColor = false;
@@ -223,7 +223,7 @@ namespace Dis_Folio
             this.Controls.Add(this.txtSoci);
             this.Controls.Add(this.Tiempo);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "Impresion del recibo";
             this.Load += new System.EventHandler(this.Form6_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
