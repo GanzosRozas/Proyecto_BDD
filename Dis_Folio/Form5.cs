@@ -24,7 +24,7 @@ namespace Dis_Folio
             TxtRfC.Text = infos.listaSocio1[3];
             ///Aqui agarra del form 1 
         }
-        public Form_Recibo(Form_Inicio_Secion.DatosSocio1 infoSocio)
+        public Form_Recibo(Form_Inicio_Sesion.DatosSocio1 infoSocio)
         {
             InitializeComponent();
             txtSocio.Text = infoSocio.socio;

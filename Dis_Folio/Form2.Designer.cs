@@ -1,7 +1,7 @@
 ﻿
 namespace Dis_Folio
 {
-    partial class Form2
+    partial class Form_InicioAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -29,81 +29,127 @@ namespace Dis_Folio
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lbl_Socio = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.cmdAcceder = new MaterialSkin.Controls.MaterialButton();
+            this.txtAdminID = new MaterialSkin.Controls.MaterialTextBox2();
+            this.txtPassword = new MaterialSkin.Controls.MaterialTextBox2();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.SuspendLayout();
             // 
-            // Lbl_Socio
+            // cmdAcceder
             // 
-            this.Lbl_Socio.AutoSize = true;
-            this.Lbl_Socio.Location = new System.Drawing.Point(33, 46);
-            this.Lbl_Socio.Name = "Lbl_Socio";
-            this.Lbl_Socio.Size = new System.Drawing.Size(85, 13);
-            this.Lbl_Socio.TabIndex = 0;
-            this.Lbl_Socio.Text = "Es usted socio ?";
+            this.cmdAcceder.AutoSize = false;
+            this.cmdAcceder.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.cmdAcceder.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.cmdAcceder.Depth = 0;
+            this.cmdAcceder.HighEmphasis = true;
+            this.cmdAcceder.Icon = null;
+            this.cmdAcceder.Location = new System.Drawing.Point(156, 219);
+            this.cmdAcceder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.cmdAcceder.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cmdAcceder.Name = "cmdAcceder";
+            this.cmdAcceder.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.cmdAcceder.Size = new System.Drawing.Size(194, 37);
+            this.cmdAcceder.TabIndex = 0;
+            this.cmdAcceder.Text = "Acceder";
+            this.cmdAcceder.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.cmdAcceder.UseAccentColor = false;
+            this.cmdAcceder.UseVisualStyleBackColor = true;
+            this.cmdAcceder.Click += new System.EventHandler(this.cmdAcceder_Click);
             // 
-            // label1
+            // txtAdminID
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Desea registrarse como nuevo socio?";
+            this.txtAdminID.AnimateReadOnly = false;
+            this.txtAdminID.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtAdminID.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtAdminID.Depth = 0;
+            this.txtAdminID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtAdminID.HideSelection = true;
+            this.txtAdminID.LeadingIcon = null;
+            this.txtAdminID.Location = new System.Drawing.Point(132, 92);
+            this.txtAdminID.MaxLength = 32767;
+            this.txtAdminID.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtAdminID.Name = "txtAdminID";
+            this.txtAdminID.PasswordChar = '\0';
+            this.txtAdminID.PrefixSuffixText = null;
+            this.txtAdminID.ReadOnly = false;
+            this.txtAdminID.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtAdminID.SelectedText = "";
+            this.txtAdminID.SelectionLength = 0;
+            this.txtAdminID.SelectionStart = 0;
+            this.txtAdminID.ShortcutsEnabled = true;
+            this.txtAdminID.Size = new System.Drawing.Size(250, 48);
+            this.txtAdminID.TabIndex = 2;
+            this.txtAdminID.TabStop = false;
+            this.txtAdminID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtAdminID.TrailingIcon = null;
+            this.txtAdminID.UseSystemPasswordChar = false;
             // 
-            // button1
+            // txtPassword
             // 
-            this.button1.Location = new System.Drawing.Point(236, 90);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Si";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtPassword.AnimateReadOnly = false;
+            this.txtPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtPassword.Depth = 0;
+            this.txtPassword.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtPassword.HideSelection = true;
+            this.txtPassword.LeadingIcon = null;
+            this.txtPassword.Location = new System.Drawing.Point(132, 146);
+            this.txtPassword.MaxLength = 32767;
+            this.txtPassword.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '\0';
+            this.txtPassword.PrefixSuffixText = null;
+            this.txtPassword.ReadOnly = false;
+            this.txtPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtPassword.SelectedText = "";
+            this.txtPassword.SelectionLength = 0;
+            this.txtPassword.SelectionStart = 0;
+            this.txtPassword.ShortcutsEnabled = true;
+            this.txtPassword.Size = new System.Drawing.Size(250, 48);
+            this.txtPassword.TabIndex = 3;
+            this.txtPassword.TabStop = false;
+            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtPassword.TrailingIcon = null;
+            this.txtPassword.UseSystemPasswordChar = false;
             // 
-            // button2
+            // materialLabel1
             // 
-            this.button2.Location = new System.Drawing.Point(158, 41);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Si";
-            this.button2.UseVisualStyleBackColor = true;
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.Location = new System.Drawing.Point(31, 110);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(69, 19);
+            this.materialLabel1.TabIndex = 4;
+            this.materialLabel1.Text = "Admin_ID";
             // 
-            // button3
+            // materialLabel2
             // 
-            this.button3.Location = new System.Drawing.Point(281, 41);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "No";
-            this.button3.UseVisualStyleBackColor = true;
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel2.Location = new System.Drawing.Point(31, 160);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(71, 19);
+            this.materialLabel2.TabIndex = 5;
+            this.materialLabel2.Text = "Password";
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(335, 90);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "No";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // Form2
+            // Form_InicioAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 140);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Lbl_Socio);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.ClientSize = new System.Drawing.Size(443, 311);
+            this.Controls.Add(this.materialLabel2);
+            this.Controls.Add(this.materialLabel1);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtAdminID);
+            this.Controls.Add(this.cmdAcceder);
+            this.Name = "Form_InicioAdmin";
+            this.Text = "Inicio De Sesion del Administrador";
+            this.Load += new System.EventHandler(this.Form_InicioAdmin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,11 +157,10 @@ namespace Dis_Folio
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl_Socio;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private MaterialSkin.Controls.MaterialButton cmdAcceder;
+        private MaterialSkin.Controls.MaterialTextBox2 txtAdminID;
+        private MaterialSkin.Controls.MaterialTextBox2 txtPassword;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
     }
 }

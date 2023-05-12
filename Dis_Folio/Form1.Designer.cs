@@ -1,7 +1,7 @@
 ﻿
 namespace Dis_Folio
 {
-    partial class Form_Inicio_Secion
+    partial class Form_Inicio_Sesion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -159,7 +159,7 @@ namespace Dis_Folio
             this.Bt_Nsocio.UseVisualStyleBackColor = true;
             this.Bt_Nsocio.Click += new System.EventHandler(this.Bt_RegistroNuevo_Click);
             // 
-            // Form_Inicio_Secion
+            // Form_Inicio_Sesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -172,7 +172,7 @@ namespace Dis_Folio
             this.Controls.Add(this.lblSocio);
             this.Controls.Add(this.txtRFC);
             this.Controls.Add(this.txtSocio);
-            this.Name = "Form_Inicio_Secion";
+            this.Name = "Form_Inicio_Sesion";
             this.Text = "Inicio de sesion";
             this.ResumeLayout(false);
             this.PerformLayout();

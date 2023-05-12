@@ -19,7 +19,6 @@ C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\bin\Debug\Dis_Fol
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\bin\Debug\MaterialSkin.dll
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.csproj.AssemblyReference.cache
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.csproj.SuggestedBindingRedirects.cache
-C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form2.resources
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form6.resources
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Properties.Resources.resources
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.csproj.GenerateResource.cache
@@ -27,7 +26,8 @@ C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Fol
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.csproj.CopyComplete
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.exe
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.pdb
-C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form_Inicio_Secion.resources
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form_Registro.resources
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form_NuevoSocio.resources
 C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form_Recibo.resources
+C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form_Inicio_Sesion.resources
+C:\Users\SKU-81583\Desktop\Proyecto DBB\Proyecto_BDD\Dis_Folio\obj\Debug\Dis_Folio.Form_InicioAdmin.resources

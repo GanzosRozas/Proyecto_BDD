@@ -12,9 +12,9 @@ using MaterialSkin.Controls;
 
 namespace Dis_Folio
 {
-    public partial class Form_Inicio_Secion : MaterialForm
+    public partial class Form_Inicio_Sesion : MaterialForm
     {
-        public Form_Inicio_Secion()
+        public Form_Inicio_Sesion()
         {
             InitializeComponent();
         }
