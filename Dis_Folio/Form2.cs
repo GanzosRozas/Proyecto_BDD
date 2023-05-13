@@ -17,13 +17,12 @@ namespace Dis_Folio
         {
             InitializeComponent();
             //skinManager.Theme = MaterialSkinManager.Themes.DARK;
-            //skinManager.ColorScheme = new ColorScheme(Primary.Orange800, Primary.Orange900, Primary.Orange500, Accent.Orange200, TextShade.WHITE);
+            skinManager.ColorScheme = new ColorScheme(Primary.Orange800, Primary.Orange900, Primary.Orange500, Accent.Orange200, TextShade.WHITE);
         }
         MaterialSkinManager skinManager = MaterialSkinManager.Instance;
         private void Form_InicioAdmin_Load(object sender, EventArgs e)
         {
 
-           
         }
 
         private void cmdAcceder_Click(object sender, EventArgs e)

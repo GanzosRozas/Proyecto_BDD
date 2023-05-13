@@ -104,7 +104,7 @@ namespace Dis_Folio
             this.Bt_Aceptar.Depth = 0;
             this.Bt_Aceptar.HighEmphasis = true;
             this.Bt_Aceptar.Icon = null;
-            this.Bt_Aceptar.Location = new System.Drawing.Point(240, 316);
+            this.Bt_Aceptar.Location = new System.Drawing.Point(50, 315);
             this.Bt_Aceptar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Bt_Aceptar.MouseState = MaterialSkin.MouseState.HOVER;
             this.Bt_Aceptar.Name = "Bt_Aceptar";
@@ -146,7 +146,7 @@ namespace Dis_Folio
             this.Bt_Nsocio.Depth = 0;
             this.Bt_Nsocio.HighEmphasis = true;
             this.Bt_Nsocio.Icon = null;
-            this.Bt_Nsocio.Location = new System.Drawing.Point(75, 316);
+            this.Bt_Nsocio.Location = new System.Drawing.Point(238, 315);
             this.Bt_Nsocio.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Bt_Nsocio.MouseState = MaterialSkin.MouseState.HOVER;
             this.Bt_Nsocio.Name = "Bt_Nsocio";

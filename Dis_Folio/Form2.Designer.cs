@@ -44,7 +44,7 @@ namespace Dis_Folio
             this.cmdAcceder.Depth = 0;
             this.cmdAcceder.HighEmphasis = true;
             this.cmdAcceder.Icon = null;
-            this.cmdAcceder.Location = new System.Drawing.Point(156, 219);
+            this.cmdAcceder.Location = new System.Drawing.Point(147, 225);
             this.cmdAcceder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cmdAcceder.MouseState = MaterialSkin.MouseState.HOVER;
             this.cmdAcceder.Name = "cmdAcceder";
@@ -91,7 +91,7 @@ namespace Dis_Folio
             this.txtPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.txtPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.txtPassword.Depth = 0;
-            this.txtPassword.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtPassword.HideSelection = true;
             this.txtPassword.LeadingIcon = null;
             this.txtPassword.Location = new System.Drawing.Point(132, 146);
